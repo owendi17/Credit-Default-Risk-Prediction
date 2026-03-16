@@ -1,7 +1,12 @@
-Home Credit Default Risk Prediction
-Project Overview
 
-This project aims to predict whether an applicant will default on a loan. Using a dataset of over 300,000 applications, I built a machine learning pipeline to identify high-risk borrowers while maintaining a balance that allows the bank to maximize loan approvals for reliable clients.
+# 🏦 Home Credit Default Risk Prediction
+**Model Performance:** `0.7483 ROC AUC` (LightGBM)
+
+## 🎯 Executive Summary
+This project moves beyond simple binary classification to provide a comprehensive risk-scoring tool. By leveraging **Gradient Boosting (LightGBM)**, I achieved a performance score that places the model in a competitive range for financial risk assessment.It aims to predict whether an applicant will default on a loan. Using a dataset of over 300,000 applications, I built a machine learning pipeline to identify high-risk borrowers while maintaining a balance that allows the bank to maximize loan approvals for reliable clients.
+
+The accompanying **Tableau Dashboard** provides a "human-in-the-loop" interface for credit officers to validate these scores against real-world financial metrics.https://public.tableau.com/authoring/creditdefaultriskvisualisation/Sheet3/Credit%20Default%20Risk%20Analysis%20Dashboard#2
+
 Key Steps & Methodology
 1. Data Exploration & Cleaning
 
